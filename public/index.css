@@ -1,0 +1,130 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+ul{
+    list-style: none;
+}
+
+.con{
+    width: 966px;
+    margin: 0 auto;
+}
+
+.header{
+    height: 110px;
+}
+
+.headerright{
+    float:right;
+}
+
+.headerright{
+    display:inline-block;
+    height: 44px;
+    margin-top: 10px;
+    line-height: 44px;
+}
+
+.headerright li{
+    float:left;
+}
+
+.headerright li a{
+    border-right:1px solid #b2c7ea;
+    padding:0 13px;
+    font-size:13px;
+}
+
+.headerright .last{
+    padding-right: 0;
+    border: 0;
+}
+
+.headerright li .active{
+    color:red;
+}
+
+.search{
+    float: right;
+    width: 234px;
+    height: 28px;
+    border:1px solid #d1d1d1;
+}
+
+.search input{
+    border: 0;
+    outline: none;
+}
+
+.search .left{
+    width: 194px;
+    float: left;
+    height: 28px;
+    padding-left: 14px;
+}
+
+.search .right{
+    float: right;
+    height: 28px;
+    
+}
+
+
+.nav{
+    height: 53px;
+    line-height: 53px;
+    border-top: 1px solid #657588;
+    background: #0c345c;
+    color:white;
+}
+
+.nav li{
+    float:left;
+    font-size: 16px;
+    margin-right: 76px; 
+}
+
+.banner{
+    height: 379px;
+    background:url(1.jpg) no-repeat center;
+}
+
+.list{
+    width: 900px;
+    height: 213px;
+    background:yellow;
+    margin-top: 51px;
+    margin-bottom: 35px;
+    
+}
+
+.item{
+    height: 211px;
+    width: 305px;
+    border: 1px solid #cccccc;
+}
+
+.xianshang{
+    background: #1ac7c1;
+}
+
+.xianshang h1{
+    color:yellow;
+}
+.xianshang p{
+    color:white
+}
+
+a{
+    color:white;
+}
+
+.abc{
+    color: blue;                      /* 为了让搜索框上边颜色不是白色 */
+}
+
+.center{
+    text-align:center;
+}

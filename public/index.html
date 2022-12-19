@@ -5,9 +5,47 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <link rel="icon" href="<%= BASE_URL %>favicon.ico">
+    <link rel="stylesheet" href="index.css">
     <title><%= htmlWebpackPlugin.options.title %></title>
   </head>
   <body>
+    <div class="header con">
+      <div class="logo">logo暫時沒有</div>
+      <div class="headerright">
+          <ul>
+              <li><a class="abc">我們做的事</a></li>  <!-- class abc为了让搜索框上的颜色不是白色 ，nav里的a标签已经是白色了-->
+              <li><a class="abc">帶我回家</a></li>
+              <li><a class="abc" href="线上认养.html">線上認養</a></li>
+              <li><a class="abc">參與我們</a></li>
+              <li><a class="abc">最新消息</a></li>
+              <li><a class="last active">常見問題</a></li>
+          </ul>
+
+
+          <div class="search">
+              <input type="text" placeholder="搜索" class="left"
+              <input type="submit" value="" class="right">
+          </div>
+      </div>
+  </div>
+  <div class="nav">
+      <ul class="con">
+          <li><a href="捐款.html">捐款</a></li>
+          <li><a>成為中途</a></li>
+          <li><a>來做志工</a></li>
+          <li><a href="企业合作.html">企業合作</a></li>
+          <li><a>參與我們</a></li>
+          <li><a>其他</a></li>
+      </ul>
+  </div>
+  <div class="banner"></div>
+  <div class="list con">
+      <div class="item">
+          <img src="" alt="">
+      </div>
+  </div>
+  <div class="footer"></div>
+  <!--074  7:31 -->
     <noscript>
       <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
     </noscript>
