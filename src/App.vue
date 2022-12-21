@@ -21,7 +21,7 @@ export default {
   methods: {
 
     connect: function () {
-        // this is for connects to the wallet 
+        // this is for connects to the wallet. 
       
       if (window.ethereum) { // first we check if metamask is installed
         window.ethereum.request({ method: 'eth_requestAccounts' })
